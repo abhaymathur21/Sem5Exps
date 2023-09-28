@@ -1,0 +1,91 @@
+/* Reset some default browser styles */
+body, h1, h2, h3, p, ul, li, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the whole page */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Page header */
+header h1 {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Navigation menu */
+nav {
+    list-style-type: none;
+    background-color: #ba9d9d;
+    overflow: hidden;
+}
+
+nav li {
+    float: center;
+}
+
+nav li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Header for the main content */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Styling for main content sections */
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Styling for headings within main content */
+h2 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+/* Styling for paragraphs within main content */
+p {
+    margin-top: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Styling for lists within main content */
+ul {
+    margin-top: 10px;
+    list-style: square;
+    padding-left: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Add hover effect to navigation links */
+nav li a:hover {
+    background-color: #555;
+}
