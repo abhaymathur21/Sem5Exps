@@ -79,6 +79,22 @@ from flask import render_template
 def index():
     return render_template('index.html')
 
+@app.route('/welcome')
+def welcome():
+    return render_template('welcome.html')
+
+@app.route('/home2')
+def home2():
+    return render_template('home2.html')
+
+@app.route('/about')
+def about():
+    sites = ['https://www.google.com','https://www.youtube.com','https://www.facebook.com']
+    return render_template('about.html',sites=sites)
+
+@app.route('/contact/<role>')
+def contact(role):
+    return render_template('contact.html',person=role)
 
 if __name__ == '__main__':
     print("App is starting...I think?")

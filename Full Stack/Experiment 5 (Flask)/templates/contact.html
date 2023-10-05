@@ -1,0 +1,12 @@
+{% extends 'welcome.html' %}
+{% block body %}
+    {% if person == 'admin' %}
+    <p>Admin Section</p>
+    {% elif person == 'maintainer' %}
+    <p>App Source for page maintainer</p>
+    {% elif person == 'member' %}
+    <p>Hope you are enjoying our service</p>
+    {% else %}
+    <p>Hello {{ person }} </p>
+    {% endif %}
+{% endblock %}
