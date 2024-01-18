@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'polls', # add this line to include the polls app in the project
 ]
 
 MIDDLEWARE = [
